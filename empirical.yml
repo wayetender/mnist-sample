@@ -1,0 +1,5 @@
+experiments:
+  mnist:
+    environment:
+      build: .
+    dataset: dataset.json
