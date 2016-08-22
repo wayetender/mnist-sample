@@ -13,7 +13,7 @@ ev_cost, ev_acc, tr_cost, training_accuracy = net.SGD(
 import json
 results = json.dumps({
     'metric': 'Accuracy',
-    'value': float(training_accuracy[2])/50000.0
+    'value': float(training_accuracy[0])/50000.0
 })
 
 f = open('/workspace/overall.json','w')
